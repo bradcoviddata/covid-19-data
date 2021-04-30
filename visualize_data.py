@@ -91,7 +91,9 @@ def graph_data(df, pop_by_state):
     fig.update_layout(showlegend=True, updatemenus=updatemenu, title_text='Covid Cases by State',
                       legend_title_text="""Solid -> Cases Per 100k<br>Dots -> Had Mask Mandate""")
 
-    fig.show()
+    # fig.show()
+
+    plotly.offline.plot(fig, filename='_includes/visualization.html')
 
 
 def add_end_date(row):
