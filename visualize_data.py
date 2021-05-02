@@ -2,7 +2,6 @@ import plotly
 import plotly.graph_objects as go
 import cufflinks as cf
 import pandas as pd
-import numpy as np
 import datetime
 
 import plotly.offline
