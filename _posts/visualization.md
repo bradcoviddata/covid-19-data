@@ -1,1 +1,1 @@
-{% include figure.html %}
+{% include visualization.html %}
