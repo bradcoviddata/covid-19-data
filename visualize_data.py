@@ -12,7 +12,7 @@ cf.set_config_file(offline=False, world_readable=True)
 
 
 def load_data():
-    return pd.read_csv('C:/git/covid-19-data/us-counties.csv')
+    return pd.read_csv('lookups/us-counties.csv')
 
 
 def load_mask_mandates():
